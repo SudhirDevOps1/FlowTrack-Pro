@@ -40,6 +40,14 @@ updates:
       day: "first sunday"
     open-pull-requests-limit: 1
     groups:
+      # Atomic grouping: CodeQL init, analyze & upload-sarif must always update together
+      codeql-suite:
+        patterns:
+          - "github/codeql-action/*"
       github-actions:
         patterns:
           - "*"
+    ignore:
+      # Block breaking major updates on GitHub Actions to prevent sudden CI breakage
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
