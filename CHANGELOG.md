@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.1](https://github.com/SudhirDevOps1/FlowTrack-Pro/compare/v0.6.0...v0.6.1) (2026-11-09)
+
+
+### 👷 CI/CD & DevOps
+
+* **dependabot:** enforce atomic CodeQL grouping and block major breaking action bumps ([3846f32](https://github.com/SudhirDevOps1/FlowTrack-Pro/commit/3846f32c11dde3c1f1ab5c5f8ca72ff7a8675992))
+* synchronize github/codeql-action to 4.39.3 and modernize tsconfig path mapping ([a91ca22](https://github.com/SudhirDevOps1/FlowTrack-Pro/commit/a91ca22729b03b980283ceba26c7a5fea2bcada4))
+
 ## [0.6.0](https://github.com/SudhirDevOps1/FlowTrack-Pro/compare/v0.5.0...v0.6.0) (2026-11-05)
 
 
